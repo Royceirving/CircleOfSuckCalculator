@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <input id="fileinput" type="file" onchange="parse_file(event)">
+        <div id="cos_div"></div>
+        <div>
+            <h2>What is a "Circle of Suck"?</h2>
+            <p>A circle of suck is when there is a circle of teams or things being better than each other in cyclical manner. For example, 'A' is better than 'B', and 'B' is better than 'C', yet 'C' is better than 'A'. There is no clear "winner" as to who or what is best.</p>
+            <h2>How to Use</h2>
+            <p>Upload a .json file with the contents of the file such as follows. Read this format as "A is better than B and C, B is better than C and D..."</p>
+            <pre>
+{
+    "A":["B","C",],
+    "B":["C","D"],
+    "C":["D"],
+    "D":["A"] 
+}
+            </pre>
+        </div>
+    </body>
+</html>
