@@ -76,6 +76,3 @@ function fill_cos(data)
         cos_div.appendChild(ele);
     }
 }
-
-// Im a javascript novice who also does little to no datastructures and algorithms work, I'm sure this could be done
-//  better and more efficient, though I created the algorithm in a few hours to make a meme for my fantasy football league.
